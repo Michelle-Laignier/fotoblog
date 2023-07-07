@@ -1,0 +1,94 @@
+:root {
+    font-size: 62.5%;
+    --background-p: #F5F5F5;
+    --background-input: #EEEEEE;
+    --color-li: #8D8D99;
+    --color-li-hover: #202024;
+    --color-input: #3D3D3D;
+    --color-h2: #202024;
+    --color-footer: #323238;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F5F5F5;
+    font-family: 'Mulish', sans-serif;
+}
+
+header {
+    align-items: center;
+    background-color: white;
+    display: flex;
+    gap: 7rem;
+    height: 8rem;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    margin-left: auto;
+}
+
+ul {
+    display: flex;
+    gap: 8rem;
+    list-style: none;
+}
+
+li a {
+    color: var(--color-li);
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: var(--color-li-hover);
+}
+
+.input {
+    width: 50%;
+}
+
+.input label {
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+}
+
+#search-input {
+    background-color: var(--background-input);
+    border: none;
+    border-radius: 5px;
+    color: var(--color-input);
+    font-family: 'Mulish', sans-serif;
+    padding: 1.2rem 1.6rem;
+    width: 100%;
+}
+
+#search-input:hover, #search-input:focus {
+    background-color: #d5d4d4;
+}
+
+.profile {
+    margin-right: auto;
+}
+
+.profile-pic {
+    border-radius: 2.2rem;
+    cursor: pointer;
+    height: 4.2rem;
+    width: 4.2rem;
+}
+
+.profile-pic:hover {
+    filter: contrast(100%) saturate(200%);
+}

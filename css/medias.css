@@ -1,0 +1,39 @@
+@media screen and (max-width:1224px) {
+    .container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:1140px) {
+    header {
+        gap: 8rem;
+    }
+
+    ul {
+        gap: 8rem;
+    }
+
+    .input {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:880px) {
+    header {
+        gap: 5rem;
+    }
+
+    ul {
+        gap: 5rem;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .input {
+        display: none;
+    }
+}
